@@ -61,7 +61,7 @@ def getPhotosynthesisContigs(filename, query):
 
 def main():
     if len(sys.argv) != 4:
-        print("Error! Invalid number of command line arguments.\n Should be 3: scriptName fileName optionNum queryStr.")
+        print("Error! Invalid number of command line arguments.\n Should be 4: scriptName fileName optionNum queryStr.")
         return
     fil = sys.argv[1]
     if sys.argv[2] == '0':
